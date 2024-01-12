@@ -46,4 +46,5 @@ streamlit run web_demo.py --server.address 127.0.0.1 --server.port 6006
 
 ### Lagent智能体工具调用demo
 <img width="1419" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/b4460c54-2e60-4e99-901e-d976889b7b42">
+<img width="1419" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/5b5e6b8e-4bc4-4e7a-a0d1-373395b2e34a">
 
