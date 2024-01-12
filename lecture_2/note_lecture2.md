@@ -24,7 +24,24 @@ pip install sentencepiece==0.1.99
 pip install accelerate==0.24.1
 ```
 ### 模型下载截图
+下载代码：
+```
+import torch
+from modelscope import snapshot_download, AutoModel, AutoTokenizer
+import os
+model_dir = snapshot_download('Shanghai_AI_Laboratory/internlm-chat-7b', cache_dir='/root/model', revision='v1.0.3')
+```
 <img width="1425" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/b7a6a9ed-aba3-4ed1-be35-de1ffa0c2a08">
 
 ### cli_demo运行
 <img width="1057" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/62d77399-1a7a-4ce6-b18b-c15c6de105dc">
+
+### web_demo运行
+配置好ssh连接后，先用如下命令运行web_demo.py
+```
+streamlit run web_demo.py --server.address 127.0.0.1 --server.port 6006
+```
+再在本地浏览器输入http://127.0.0.1:6006，服务器的程序才会开始加载模型，加载完毕后就可以对话了：
+<img width="1419" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/16e298cc-2a66-43d4-b6c4-660ed5342a1a">
+
+
