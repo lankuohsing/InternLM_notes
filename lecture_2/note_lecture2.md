@@ -44,4 +44,6 @@ streamlit run web_demo.py --server.address 127.0.0.1 --server.port 6006
 再在本地浏览器输入http://127.0.0.1:6006，服务器的程序才会开始加载模型，加载完毕后就可以对话了：
 <img width="1419" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/16e298cc-2a66-43d4-b6c4-660ed5342a1a">
 
+### Lagent智能体工具调用demo
+<img width="1419" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/b4460c54-2e60-4e99-901e-d976889b7b42">
 
