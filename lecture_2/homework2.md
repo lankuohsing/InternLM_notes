@@ -1,3 +1,6 @@
+# 使用InternLM-Chat-7B模型生成300字的小故事
+<img width="1419" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/16e298cc-2a66-43d4-b6c4-660ed5342a1a">
+
 # 利用huggingface_hug python包下载模型
 <img width="1069" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/fb0b2397-38eb-430d-9056-ed63d052d76b">
 <img width="596" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/39057109-f4bb-48fc-a980-f5f928466a01">
