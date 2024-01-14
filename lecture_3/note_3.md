@@ -29,5 +29,7 @@ RAG方案优化建议
 <img width="906" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/354349e3-e3b8-4a19-a53a-ff5be787e8a4">
 
 ## 5. Web Demo部署
+常见的支持简易web部署的框架：Gradio、Streamlit等
 
+## 6. 动手实践环节
 
