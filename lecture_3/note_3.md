@@ -28,8 +28,17 @@ RAG：检索增强生成（Retrieval-Augmented Generation）
 RAG方案优化建议
 <img width="906" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/354349e3-e3b8-4a19-a53a-ff5be787e8a4">
 
+## 5. 实践
+### 5.1. 环境配置
+```
+conda create --name lgx-langchain-demo --clone=/root/share/conda_envs/internlm-base
+```
+
 ## 5. Web Demo部署
 常见的支持简易web部署的框架：Gradio、Streamlit等
+
+<img width="1303" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/27deed01-9c4a-40b9-9e37-180a3c3ad481">
+
 
 ## 6. 动手实践环节
 
