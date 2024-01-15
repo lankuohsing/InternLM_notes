@@ -29,3 +29,5 @@ LoRA & QLoRA
 <img width="1142" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/ef73ce2e-7cd0-4f6e-bf20-a1b05897f29f">
 <img width="1440" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/2b15c2e2-6568-4711-b827-29c7b663b969">
 <img width="1440" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/8eec9b70-ff45-4918-951c-31c94d448983">
+<img width="1440" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/17704d2c-330d-4506-8cd4-05f04d2c950a">
+
