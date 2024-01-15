@@ -36,9 +36,10 @@ conda create --name lgx-langchain-demo --clone=/root/share/conda_envs/internlm-b
 
 ## 5. Web Demo部署
 常见的支持简易web部署的框架：Gradio、Streamlit等
-
+<img width="894" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/7eafe1e3-dfe6-4f3b-afb7-f56505fddc7e">
+<img width="1440" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/5a9e7294-3cb8-4073-aa68-a02d72cb3c57">
 <img width="1303" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/27deed01-9c4a-40b9-9e37-180a3c3ad481">
 
 
-## 6. 动手实践环节
+
 
