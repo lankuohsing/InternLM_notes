@@ -26,8 +26,39 @@ LoRA & QLoRA
 <img width="1159" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/e20a465d-e0d9-41bc-ae05-0ef29ceec3a9">
 
 ## 4. 动手实践环节
+### 4.1. 安装xtuner
 <img width="1142" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/ef73ce2e-7cd0-4f6e-bf20-a1b05897f29f">
+
+### 4.2. 训练过程
 <img width="1440" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/2b15c2e2-6568-4711-b827-29c7b663b969">
 <img width="1440" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/8eec9b70-ff45-4918-951c-31c94d448983">
 <img width="1440" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/17704d2c-330d-4506-8cd4-05f04d2c950a">
 
+
+### 4.3. adapter转为hf格式，并且与原始模型合并
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/b0c51a74-242b-4cd3-b590-de36e3759a4a)
+
+### 4.4. 对话过程
+#### 4.4.1. fp16精度
+```
+# 加载 Adapter 模型对话（Float 16）
+xtuner chat ./merged --prompt-template internlm_chat
+```
+显存占用
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/793d5434-fbe5-4bdd-9b01-abef82fab827)
+
+聊天过程（生成答案的过程很慢）
+（注意输入完毕后敲两次回车）
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/3c79d788-13bf-4e48-b7cc-7205002f2eac)
+
+#### 4.4.2. int4精度
+```
+# 4 bit 量化加载
+xtuner chat ./merged --bits 4 --prompt-template internlm_chat
+```
+显存占用
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/51d4c626-a3b0-40ca-8090-d8d5d3acff4c)
+
+聊天过程（生成答案的过程较快）
+（注意输入完毕后敲两次回车）
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/28550fd6-7a8d-4ada-ba5a-01d368c6d220)
