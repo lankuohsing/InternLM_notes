@@ -62,3 +62,7 @@ xtuner chat ./merged --bits 4 --prompt-template internlm_chat
 聊天过程（生成答案的过程较快）
 （注意输入完毕后敲两次回车）
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/28550fd6-7a8d-4ada-ba5a-01d368c6d220)
+
+### 4.5. 自定义数据集
+<img width="1440" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/a4fbeb28-457f-40f1-8f18-9270c628d747">
+<img width="1440" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/60f7679c-7c58-4577-a30e-1e252ef0333f">
