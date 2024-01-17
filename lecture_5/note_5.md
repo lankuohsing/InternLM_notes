@@ -24,3 +24,8 @@
 ### 2.2. 核心功能-推力引擎TurboMind
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/73b0b229-59ae-497f-9ce1-751e0816b134)
 
+持续批处理（decoder才比较常用）
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/8e22a0ce-db06-4116-be26-9bf888023fdd)
+
+有状态的推理
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/fd19e481-7ffc-486e-bb07-6bd443cdba01)
