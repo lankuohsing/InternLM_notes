@@ -29,3 +29,13 @@
 
 有状态的推理
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/fd19e481-7ffc-486e-bb07-6bd443cdba01)
+
+Blocked k/v cache
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/44758c9f-37e5-420d-a1de-03fcbc318552)
+
+高性能的cuda kernel
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/0f5ef432-1ebd-43db-a307-f355c7ee3a03)
+
+### 2.3. 核心功能-推理服务api server
+
+## 3. 动手实践环节-安装、部署、量化
