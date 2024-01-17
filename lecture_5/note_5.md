@@ -16,3 +16,11 @@
 
 为什么做weight only的量化（计算的时候还少要反量化成fp16来计算，所以会增加一部分时延，但是访存时延减小得更多）
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/f036e8cd-5cdd-4c69-8fea-7c13a726c356)
+
+如何做weight only的量化
+有一些重要参数不量化
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/0a7e694e-3163-494d-8dfc-eac2a9b855c9)
+
+### 2.2. 核心功能-推力引擎TurboMind
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/73b0b229-59ae-497f-9ce1-751e0816b134)
+
