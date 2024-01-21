@@ -39,3 +39,18 @@ Blocked k/v cache
 ### 2.3. 核心功能-推理服务api server
 
 ## 3. 动手实践环节-安装、部署、量化
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/47492e95-be20-4c62-bfcd-0d3a192a9264)
+
+### 3.1. 模型转换
+
+启动本地模型
+```
+lmdeploy chat turbomind /share/temp/model_repos/internlm-chat-7b/  --model-name internlm-chat-7b
+```
+
+#### 3.1.1. 离线转换
+```
+# 转换模型（FastTransformer格式） TurboMind
+lmdeploy convert internlm-chat-7b /path/to/internlm-chat-7b
+```
+
