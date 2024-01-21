@@ -83,3 +83,9 @@ lmdeploy serve api_server ./workspace \
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/168c7063-6d1f-4565-a53b-0403b8f8e369)
 
 
+#### 3.1.4. TurboMind 推理作为后端
+```
+# Gradio+Turbomind(local)
+lmdeploy serve gradio ./workspace
+```
+<img width="1250" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/5d8b1cbc-233d-4b4f-8113-b4ae96bbc4bc">
