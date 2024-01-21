@@ -84,6 +84,15 @@ lmdeploy serve api_server ./workspace \
 
 ### 3.4. 网页demo演示
 #### 3.4.1. TurboMind 服务作为后端
+先开启server：
+```
+lmdeploy serve api_server ./workspace \
+    --server_name 0.0.0.0 \
+    --server_port 23333 \
+    --instance_num 64 \
+    --tp 1
+```
+然后
 ```
 # Gradio+ApiServer。必须先开启 Server，此时 Gradio 为 Client
 lmdeploy serve gradio http://0.0.0.0:23333 \
