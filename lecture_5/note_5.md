@@ -112,3 +112,4 @@ lmdeploy serve gradio ./workspace
 ```
 <img width="1250" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/5d8b1cbc-233d-4b4f-8113-b4ae96bbc4bc">
 
+#### 3.4.3. TurboMind 推理 + Python 代码集成
