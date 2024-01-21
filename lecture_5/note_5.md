@@ -78,4 +78,8 @@ lmdeploy serve api_server ./workspace \
 ```
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/52c36a8a-5a09-4065-975e-d971adac907d)
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/3ea94235-1cc1-416e-a1e0-ee9ae2345caa)
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/7746c624-7305-42b8-9f73-6180bf21e508)
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/1d06f432-0956-4b35-b3f4-14bbf912cc8c)
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/168c7063-6d1f-4565-a53b-0403b8f8e369)
+
 
