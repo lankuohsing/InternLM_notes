@@ -65,6 +65,17 @@ lmdeploy convert internlm-chat-7b /path/to/internlm-chat-7b
 # Turbomind + Bash Local Chat
 lmdeploy chat turbomind ./workspace
 ```
-![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/4577219f-122c-4106-9bf0-52d21fcdc0e1)
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/df7d8f53-e833-47ba-9263-6181043c6198)
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/23dbb507-384c-4900-92bc-cac8b6feda9d)
+
+#### 3.1.3. TurboMind推理+API服务
+```
+lmdeploy serve api_server ./workspace \
+    --server_name 0.0.0.0 \
+    --server_port 23333 \
+    --instance_num 64 \
+    --tp 1
+```
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/52c36a8a-5a09-4065-975e-d971adac907d)
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/3ea94235-1cc1-416e-a1e0-ee9ae2345caa)
 
