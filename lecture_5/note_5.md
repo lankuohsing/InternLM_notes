@@ -47,6 +47,12 @@ Blocked k/v cache
 ```
 lmdeploy chat turbomind /share/temp/model_repos/internlm-chat-7b/  --model-name internlm-chat-7b
 ```
+Tensor并行之列并行
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/f50a28dd-39d3-4ca7-862d-06c00d530595)
+
+Tensor并行之行并行
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/c622a382-d38a-4f0b-b056-164e0dbfad60)
+
 
 #### 3.1.1. 离线转换
 ```
