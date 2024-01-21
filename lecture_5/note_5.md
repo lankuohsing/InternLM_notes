@@ -92,6 +92,8 @@ lmdeploy serve api_server ./workspace \
     --instance_num 64 \
     --tp 1
 ```
+<img width="772" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/f01c204e-11b6-44d0-8189-614556d90048">
+
 然后
 ```
 # Gradio+ApiServer。必须先开启 Server，此时 Gradio 为 Client
@@ -100,6 +102,8 @@ lmdeploy serve gradio http://0.0.0.0:23333 \
 	--server_port 6006 \
 	--restful_api True
 ```
+<img width="1096" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/a5ecd6ef-9b47-45de-be65-d644a79500da">
+<img width="1264" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/470d03d4-c995-465e-b037-6268a6f7b7f6">
 
 #### 3.4.2. TurboMind 推理作为后端
 ```
