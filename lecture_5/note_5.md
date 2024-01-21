@@ -60,3 +60,11 @@ Tensor并行之行并行
 lmdeploy convert internlm-chat-7b /path/to/internlm-chat-7b
 ```
 
+#### 3.1.2. TurboMind 推理+命令行本地对话
+```
+# Turbomind + Bash Local Chat
+lmdeploy chat turbomind ./workspace
+```
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/4577219f-122c-4106-9bf0-52d21fcdc0e1)
+![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/23dbb507-384c-4900-92bc-cac8b6feda9d)
+
