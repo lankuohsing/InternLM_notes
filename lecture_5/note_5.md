@@ -60,7 +60,7 @@ Tensor并行之行并行
 lmdeploy convert internlm-chat-7b /path/to/internlm-chat-7b
 ```
 
-#### 3.1.2. TurboMind 推理+命令行本地对话
+### 3.2. TurboMind 推理+命令行本地对话
 ```
 # Turbomind + Bash Local Chat
 lmdeploy chat turbomind ./workspace
@@ -68,7 +68,7 @@ lmdeploy chat turbomind ./workspace
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/df7d8f53-e833-47ba-9263-6181043c6198)
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/23dbb507-384c-4900-92bc-cac8b6feda9d)
 
-#### 3.1.3. TurboMind推理+API服务
+### 3.3. TurboMind推理+API服务
 ```
 lmdeploy serve api_server ./workspace \
     --server_name 0.0.0.0 \
@@ -82,10 +82,20 @@ lmdeploy serve api_server ./workspace \
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/1d06f432-0956-4b35-b3f4-14bbf912cc8c)
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/168c7063-6d1f-4565-a53b-0403b8f8e369)
 
+### 3.4. 网页demo演示
+#### 3.4.1. TurboMind 服务作为后端
+```
+# Gradio+ApiServer。必须先开启 Server，此时 Gradio 为 Client
+lmdeploy serve gradio http://0.0.0.0:23333 \
+	--server_name 0.0.0.0 \
+	--server_port 6006 \
+	--restful_api True
+```
 
-#### 3.1.4. TurboMind 推理作为后端
+#### 3.4.2. TurboMind 推理作为后端
 ```
 # Gradio+Turbomind(local)
 lmdeploy serve gradio ./workspace
 ```
 <img width="1250" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/5d8b1cbc-233d-4b4f-8113-b4ae96bbc4bc">
+
