@@ -2,3 +2,4 @@
 
 ![image](https://github.com/lankuohsing/InternLM_notes/assets/12205805/e86e70a5-185e-488a-bc98-c2c5ec6afca9)
 
+<img width="1264" alt="image" src="https://github.com/lankuohsing/InternLM_notes/assets/12205805/470d03d4-c995-465e-b037-6268a6f7b7f6">
